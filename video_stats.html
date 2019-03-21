@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Video Stats CFDI 3.3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+   <!-- CODIGO DE GOOGLE ANALYTICS
+        =========================================== -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118669414-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-118669414-1');
+        </script>
+</head>
+<body>
+
+    <div class="container">
+      <h2>Contador de vistas video CFDI 3.3</h2>          
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th class="text-center">Tipo de Vista</th>
+            <th class="text-center">Última vista</th>
+            <th class="text-center">Número de vistas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Completa</td>
+            <td id="lastView-completo"></td>
+            <td id="numViews-completo"></td>
+          </tr>
+          <tr>
+            <td>Play</td>
+            <td id="lastView-play"></td>
+            <td id="numViews-play"></td>
+          </tr>
+          <tr>
+            <td>5 Min</td>
+            <td id="lastView-5min"></td>
+            <td id="numViews-5min"></td>
+          </tr>
+            <tr>
+            <td>10 Min</td>
+            <td id="lastView-10min"></td>
+            <td id="numViews-10min"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--<script src="assets/js/video_stats.js"></script>-->
+    <script>
+        $(function() {
+            $.post("../php/php/video_stats.php", {"get_views": true})
+            .done(function(data) {
+                console.log(data);
+                var views = $.parseJSON(data);
+                if (views != "0 results") {
+                    for(var i in views) {
+                        $("#lastView-"+views[i]["view_type"]).text(views[i]["last_view"]);
+                        $("#numViews-"+views[i]["view_type"]).text(views[i]["num_views"]);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,997 @@
+﻿{
+    "items": [
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "7",
+			"month": "9",
+			"year": "2016",
+			"time": "9:00 am"
+		},
+        {
+            "id": "banco",
+			"name": "BANCO 4.0",
+			"day": "21",
+			"month": "9",
+			"year": "2016",
+			"time": "9:00 am"
+		},
+        {
+            "id": "aspel",
+			"name": "ASPEL",
+			"day": "23",
+			"month": "9",
+			"year": "2016",
+			"time": "9:30am - 12:00pm"
+		},
+        {
+            "id": "interfaces",
+			"name": "INTERFACES",
+			"day": "27",
+			"month": "9",
+			"year": "2016",
+			"time": "9:00am - 12:00pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "4",
+			"month": "10",
+			"year": "2016",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "banco",
+			"name": "BANCO 4.0",
+			"day": "12",
+			"month": "10",
+			"year": "2016",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "13",
+			"month": "10",
+			"year": "2016",
+			"time": "9:30am - 01:00pm",
+			"description": "Curso cierre de año: Aguinaldo, PTU, Acumulados."
+		},
+        {
+            "id": "aspel",
+			"name": "Evento PASS",
+			"day": "14",
+			"month": "10",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Evento gratuito: Respaldos y dispositivos de almacenamiento."
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "19",
+			"month": "10",
+			"year": "2016",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Aspel",
+			"day": "21",
+			"month": "10",
+			"year": "2016",
+			"time": "9:45am - 12:00pm",
+			"description": "Evento grauito: Simplifica la administración de tu negocio con las interfaces Aspel."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "25",
+			"month": "10",
+			"year": "2016",
+			"time": "9:30am - 01:00pm",
+			"description": "Curso cierre de año: Aguinaldo, PTU, Acumulados."
+		},
+        {
+            "id": "aspel",
+			"name": "ASPEL",
+			"day": "4",
+			"month": "11",
+			"year": "2016",
+			"time": "9:45am - 12:00pm",
+			"description": "Aprende a administrar tu negocio con las soluciones Aspel. Evento gratuito."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "10",
+			"month": "11",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "",
+			"name": "Evento PASS",
+			"day": "11",
+			"month": "11",
+			"year": "2016",
+			"time": "9:45am - 12:00pm",
+			"description": "Respaldos y dispositivos de almacenamiento. Evento gratuito."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "16",
+			"month": "11",
+			"year": "2016",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "22",
+			"month": "11",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "28",
+			"month": "11",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "2",
+			"month": "12",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "7",
+			"month": "12",
+			"year": "2016",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "13",
+			"month": "12",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "21",
+			"month": "12",
+			"year": "2016",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones, aguinaldo, inicio 2017)."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "5",
+			"month": "1",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones)."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "11",
+			"month": "1",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"description": "Curso Actualización NOI 8.0 (Nuevas funciones)."
+		},
+        {
+            "id": "aspel",
+			"name": "Aspel",
+			"day": "20",
+			"month": "1",
+			"year": "2017",
+			"time": "9:45am - 12:00pm",
+			"description": "Evento grauito: Simplifica la administración de tu negocio con las interfaces Aspel."
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "24",
+			"month": "1",
+			"year": "2017",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "16",
+			"month": "2",
+			"year": "2017",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "22",
+			"month": "2",
+			"year": "2017",
+			"time": "9:00am - 2:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Aspel",
+			"day": "24",
+			"month": "2",
+			"year": "2017",
+			"time": "9:45am - 12:00pm",
+			"description": "Evento grauito: Simplifica la administración de tu negocio con las interfaces Aspel."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "7",
+			"month": "3",
+			"year": "2017",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Aspel",
+			"day": "17",
+			"month": "3",
+			"year": "2017",
+			"time": "10:00am - 12:00pm",
+			"description": "Evento grauito: Implementa con éxito tus sistemas Aspel."
+		},
+        {
+            "id": "interfaces",
+			"name": "INTERFACES",
+			"day": "23",
+			"month": "3",
+			"year": "2017",
+			"time": "9:00am - 12:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Nuevas Características",
+			"day": "12",
+			"month": "5",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"description": "Evento grauito: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "16",
+			"month": "5",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"description": "De 9:00am a 02:00pm. (AGOTADO)"
+		},
+        {
+            "id": "aspel",
+			"name": "Nuevas Características",
+			"day": "19",
+			"month": "5",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"description": "Evento grauito: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "23",
+			"month": "5",
+			"year": "2017",
+			"time": "9:00am - 2:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Nuevas Características",
+			"day": "2",
+			"month": "6",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "aspel",
+			"name": "Nuevas Características",
+			"day": "13",
+			"month": "6",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "14",
+			"month": "6",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "interfaces",
+			"name": "INTERFACES",
+			"day": "22",
+			"month": "6",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "aspel",
+			"name": "Nuevas Características",
+			"day": "23",
+			"month": "6",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "27",
+			"month": "6",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Actualización. Presencial de 9:00am a 12:00pm."
+		},
+        {
+            "id": "aspel",
+			"name": "Anexo 20 y Nuevas Características",
+			"day": "18",
+			"month": "7",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "acoi",
+			"name": "COI 8.0",
+			"day": "25",
+			"month": "7",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "COI 8 ACTUALIZACIÓN y Pólizas Dinámicas. Presencial."
+		},
+        {
+            "id": "aspel",
+			"name": "Anexo 20 y Nuevas Características",
+			"day": "1",
+			"month": "8",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "3",
+			"month": "8",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "acoi",
+			"name": "COI 8.0",
+			"day": "10",
+			"month": "8",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "COI 8 ACTUALIZACIÓN y Pólizas Dinámicas. Presencial."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "17",
+			"month": "8",
+			"year": "2017",
+			"time": "9:00am - 2:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "acoi",
+			"name": "COI 8.0",
+			"day": "21",
+			"month": "8",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "COI 8 ACTUALIZACIÓN y Pólizas Dinámicas. Presencial."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "22",
+			"month": "8",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "aspel",
+			"name": "Anexo 20 y Nuevas Características",
+			"day": "25",
+			"month": "8",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "facture",
+			"name": "FACTURE 4.0",
+			"day": "29",
+			"month": "8",
+			"year": "2017",
+			"time": "10:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "FACTURE 4.0 COMPLETO. Presencial."
+		},
+        {
+            "id": "aspel",
+			"name": "Anexo 20 y Nuevas Características",
+			"day": "5",
+			"month": "9",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "7",
+			"month": "9",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "12",
+			"month": "9",
+			"year": "2017",
+			"time": "9:00am - 2:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "20",
+			"month": "9",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "acoi",
+			"name": "COI 8.0",
+			"day": "25",
+			"month": "9",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "COI 8 ACTUALIZACIÓN y Pólizas Dinámicas. Presencial."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "27",
+			"month": "9",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial."
+		},
+        {
+            "id": "pass",
+			"name": "Semana Nacional del Emprendedor",
+			"day": "14",
+			"month": "9",
+			"year": "2017",
+			"time": "09:00am - 18:00pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "4",
+			"month": "10",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "10",
+			"month": "10",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial."
+		},
+        {
+            "id": "aspel",
+			"name": "Anexo 20 y Nuevas Características",
+			"day": "13",
+			"month": "10",
+			"year": "2017",
+			"time": "09:45am - 01:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "Evento grauito presencial: Anexo 20, Nuevas funciones COI 8.0 y SAE 7.0"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "18",
+			"month": "10",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "acoi",
+			"name": "COI 8.0",
+			"day": "25",
+			"month": "10",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "COI 8 ACTUALIZACIÓN y Pólizas Dinámicas. Presencial."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "03",
+			"month": "11",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "07",
+			"month": "11",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "16",
+			"month": "11",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "20",
+			"month": "11",
+			"year": "2017",
+			"time": "2:00pm - 7:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "01",
+			"month": "12",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial."
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "06",
+			"month": "12",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "12",
+			"month": "12",
+			"year": "2017",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "20",
+			"month": "12",
+			"year": "2017",
+			"time": "9:00am - 12:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "27",
+			"month": "12",
+			"year": "2017",
+			"time": "9:00am - 2:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "NOI 8.0 COMPLETO. Presencial."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "11",
+			"month": "01",
+			"year": "2018",
+			"time": "04:00pm - 07:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX.",
+			"description": "SAE 7.0 ACTUALIZACIÓN. Presencial. Vespertino."
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "17",
+			"month": "01",
+			"year": "2018",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "24",
+			"month": "01",
+			"year": "2018",
+			"time": "9:00am - 02:00pm",
+			"location": "Ejido Xoco 30, Ex-Ejido de San Francisco Culhuacán, 04470 Ciudad de México, CDMX."
+		},
+        {
+            "id": "noi",
+			"name": "NOI 8.0",
+			"day": "01",
+			"month": "2",
+			"year": "2018",
+			"time": "9:30am - 2:30pm"
+		},
+        {
+            "id": "banco",
+			"name": "BANCO 4.0",
+			"day": "13",
+			"month": "2",
+			"year": "2018",
+			"time": "9:30am - 02:30pm"
+		},
+        {
+            "id": "interfaces",
+			"name": "INTERFACES",
+			"day": "22",
+			"month": "2",
+			"year": "2018",
+			"time": "9:30am - 12:30pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "27",
+			"month": "2",
+			"year": "2018",
+			"time": "09:30pm - 12:30pm"
+		},
+        {
+            "id": "interfaces",
+			"name": "INTERFACES",
+			"day": "2",
+			"month": "3",
+			"year": "2018",
+			"time": "9:00am - 12:00pm"
+		},
+        {
+            "id": "coi",
+			"name": "COI 8.0",
+			"day": "12",
+			"month": "3",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "21",
+			"month": "3",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "banco",
+			"name": "BANCO 4.0",
+			"day": "28",
+			"month": "3",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "aspel",
+			"name": "Aspel",
+			"day": "6",
+			"month": "4",
+			"year": "2018",
+			"time": "9:45am - 12:00pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "19",
+			"month": "4",
+			"year": "2018",
+			"time": "03:00pm - 08:00pm"
+		},
+        {
+            "id": "sae",
+			"name": "SAE 7.0",
+			"day": "21",
+			"month": "4",
+			"year": "2018",
+			"time": "9:30am - 02:00pm"
+		},
+        {
+            "id": "banco",
+            "name": "BANCO 4.0",
+			"day": "26",
+			"month": "4",
+			"year": "2018",
+			"time": "9:30am - 02:30pm"
+		},
+        {
+            "id": "sae",
+            "name": "SAE 7.0",
+			"day": "7",
+			"month": "5",
+			"year": "2018",
+			"time": "9:30am - 02:00pm"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "11",
+			"month": "5",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "22",
+			"month": "5",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "7",
+			"month": "6",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "15",
+			"month": "6",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "coi",
+            "name": "COI 8.0",
+			"day": "21",
+			"month": "6",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "sae",
+            "name": "SAE 7.0",
+			"day": "26",
+			"month": "6",
+			"year": "2018",
+			"time": "9:30am - 02:30pm"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "6",
+			"month": "7",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "coi",
+            "name": "COI 8.0",
+			"day": "10",
+			"month": "7",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "24",
+			"month": "7",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "7",
+			"month": "8",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "asistente",
+            "name": "Conoce la nueva app NOI Asistente",
+			"day": "16",
+			"month": "8",
+			"year": "2018",
+			"time": "9:45am - 12:00pm"
+		},
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "17",
+			"month": "8",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "coi",
+            "name": "COI 8.0",
+			"day": "21",
+			"month": "8",
+			"year": "2018",
+			"time": "9:00am - 14:00pm"
+		},  
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "23",
+			"month": "8",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+        {
+            "id": "aspel",
+            "name": "Punto de venta",
+			"day": "24",
+			"month": "8",
+			"year": "2018",
+			"time": "9:45am - 12:00pm"
+		},        
+        {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "28",
+			"month": "8",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+         {
+            "id": "sae",
+            "name": "SAE 7.0",
+			"day": "05",
+			"month": "9",
+			"year": "2018",
+			"time": "9:30am - 02:30pm"
+		},
+         {
+            "id": "rpagos",
+            "name": "Taller de Recepción de Pagos",
+			"day": "11",
+			"month": "9",
+			"year": "2018",
+			"time": "9:30am - 11:30am"
+		},
+         {
+            "id": "pass",
+			"name": "Semana Nacional del Emprendedor",
+			"day": "14",
+			"month": "9",
+			"year": "2018",
+			"time": "09:00am - 18:00pm"
+		},
+         {
+            "id": "aspel",
+            "name": "Punto de venta",
+			"day": "21",
+			"month": "9",
+			"year": "2018",
+			"time": "9:45am - 12:00pm"
+		},
+        {
+            "id": "sae",
+            "name": "SAE 7.0",
+			"day": "17",
+			"month": "10",
+			"year": "2018",
+			"time": "9:00am - 02:00pm"
+		},        
+        {
+            "id": "pass",
+			"name": "Webinar Nuevo esquema de Cancelación",
+			"day": "08",
+			"month": "11",
+			"year": "2018",
+			"time": "09:45 am"
+		},               
+         {
+            "id": "pass",
+			"name": "Webinar Nuevo esquema de Cancelación",
+			"day": "16",
+			"month": "11",
+			"year": "2018",
+			"time": "09:45 am"
+		},
+        {
+            "id": "coi",
+            "name": "COI 8.0",
+			"day": "20",
+			"month": "11",
+			"year": "2018",
+			"time": "9:00am - 14:00pm"
+		},
+        {
+            "id": "pass",
+			"name": "Webinar Nuevo esquema de Cancelación",
+			"day": "06",
+			"month": "12",
+			"year": "2018",
+			"time": "09:45 am"
+		},
+        {
+            "id": "sae",
+            "name": "SAE 7.0",
+			"day": "11",
+			"month": "12",
+			"year": "2018",
+			"time": "9:30am - 02:30pm"
+		}
+	]
+}
