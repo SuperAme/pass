@@ -360,7 +360,7 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
   });
 
     /*========================= 
-     Add Users - Precios SAE
+    Add Users - Precios SAE
     ===========================*/
     /*
     $(".drop-price").hover(
@@ -372,7 +372,7 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
     
     var title = $(document).find("title").text();
     //--Coloca los valores a cero cuando se carga la página
-    $("#more-users").val(0);
+    $("#more-users").val(1);
     $("#price-add-user").text("$0.00");
     $("#prod_desc_users").text("");
     addUsers();
@@ -400,9 +400,10 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
         if ($("#precio-tipo").text() == "Renta") {
             $("#price-add-user").text("$0.00");
             $("#more-users").val(0);
-            $("#prod_desc_users").text("");
+            $("#prod_desc_users").text("");            
         }
-        
+        $("#price-b").css("text-decoration", "none");
+                
         $("#precio-tipo").text("Compra");
         $("#precio-base-act").addClass("hide");
         $("#precio-base").removeClass("hide");
@@ -429,11 +430,11 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
         $("#precio-base-act").addClass("hide");
         $("#precio-base").removeClass("hide");
         $("#precio-base").css("text-decoration", "line-through");
-        
+        $("#price-b").css("text-decoration", "none");
         $("#price-add-user").parent().addClass("hide");
         $("#more-users").parent().find("h4 strong").text("Usuarios");
         $("#more-users").attr("min", "1");
-        
+       
         $("#total-text").text("Renta mensual:");
         $("#total-price").text($("#precio-renta").text());
         
@@ -452,13 +453,17 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
     });
     
     $("#precios-act").click(function(){
+        $("#precio-base").css("text-decoration","none");
+        $("#precio-tipo").text("Actualización");
+        $("#more-users").val("0");
         //--Restaura los valores de los usuarios adicionales
         if ($("#precio-tipo").text() == "Renta") {
             $("#price-add-user").text("$0.00");
             $("#more-users").val(0);
             $("#prod_desc_users").text("");
+            $("#price-b").text-decoration("none");
         }
-        
+        $("#price-b").css("text-decoration", "none");
         $("#precio-tipo").text("Actualización");
         $("#precio-base").addClass("hide");
         $("#precio-base-act").removeClass("hide");

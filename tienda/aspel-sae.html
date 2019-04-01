@@ -397,7 +397,7 @@
                                  <div class="dropdown color-size-list">
                                      <h4><strong>Tipo</strong></h4>
                                      <div class="drop-price">
-                                         <button class="btn dropdown-toggle tipo-compra" type="button" data-toggle="dropdown" id="precio-tipo">Compra</button>
+                                         <button class="btn dropdown-toggle tipo-compra" type="button" data-toggle="dropdown" id="precio-tipo">Renta</button>
                                          <i><b class="caret"></b></i>
                                          <ul class="dropdown-menu">
                                              <li><a href="#compra" id="precios-compra">Compra</a></li>
@@ -428,10 +428,13 @@
                             <div class="clear"></div>
                             <div class="product-price-full">
                                 <h4><strong>Precio sin IVA</strong></h4>
-                                <span class="p-price-g" id="precio-base">Sistema Base: <span id="price-b">$13,680.00</span></span>
+                                <span style="text-decoration: line-through" class="p-price-g" id="precio-base" >Sistema Base: <span id="price-b" style="text-decoration: line-through;">$13,680.00</span></span>
                                 <span class="p-price-g hide" id="precio-base-act">Sistema Base: <span id="price-b-act">$7,524.00</span></span>
-                                <span class="p-price-g">Usuarios Adicionales: <span id="price-add-user">$0.00</span></span>
-                                <span class="p-price-full"><span id="total-text">Total:</span> <span id="total-price">$13,680.00</span><span class="hide" id="precio-renta">$570.00</span></span>
+                                <span class="p-price-g hide">Usuarios Adicionales: <span id="price-add-user">$0.00</span></span>
+                                <span class="p-price-full">
+                                <span id="total-text">Renta mensual: </span>
+                                <span class="hide" id="total-text">Total:</span> <span id="total-price">$13,680.00</span>              
+                                <span class="hide" id="precio-renta">$570.00</span></span>
                             </div>
                             <div class="number-select paypal-btn">
                                 <button class="btn-tienda" id="btn-comprar" data_desc="SAE Sistema Base" data_price="13680">Comprar</button>
@@ -447,7 +450,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="product-tab">
                             <div>
-                              <!-- Nav tabs -->
+                                <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Descripción</a></li>
                                     <li role="presentation"><a href="#rel" aria-controls="rel" role="tab" data-toggle="tab">Productos Relacionados</a></li>

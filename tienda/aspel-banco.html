@@ -395,7 +395,7 @@
                                 <div class="dropdown color-size-list">
                                      <h4><strong>Tipo</strong></h4>
                                      <div class="drop-price">
-                                         <button class="btn dropdown-toggle tipo-compra" type="button" data-toggle="dropdown" id="precio-tipo">Compra</button>
+                                         <button class="btn dropdown-toggle tipo-compra" type="button" data-toggle="dropdown" id="precio-tipo">Renta</button>
                                          <i><b class="caret"></b></i>
                                          <ul class="dropdown-menu">
                                              <li><a href="#compra" id="precios-compra">Compra</a></li>
@@ -428,10 +428,12 @@
                             <div class="clear"></div>
                             <div class="product-price-full">
                                 <h4><strong>Precio sin IVA</strong></h4>
-                                <span class="p-price-g" id="precio-base">Sistema Base: <span id="price-b">$6,480.00</span></span>
+                                <span class="p-price-g" id="precio-base" style="text-decoration: line-through">Sistema Base: <span id="price-b">$6,480.00</span></span>
                                 <span class="p-price-g hide" id="precio-base-act">Sistema Base: <span id="price-b-act">$3,564.00</span></span>
-                                <span class="p-price-g">Usuarios Adicionales: <span id="price-add-user">$0.00</span></span>
-                                <span class="p-price-full"><span id="total-text">Total:</span> <span id="total-price">$6,480.00</span><span class="hide" id="precio-renta">$270.00</span></span>
+                                <span class="p-price-g hide">Usuarios Adicionales: <span id="price-add-user">$0.00</span></span>
+                                <span class="p-price-full">
+                                <span id="total-text">Renta mensual: </span>
+                                <span class="hide" id="total-text">Total:</span> <span id="total-price">$6,480.00</span><span class="hide" id="precio-renta">$270.00</span></span>
                             </div>
                             <div class="number-select paypal-btn">
                                 <button class="btn-tienda" id="btn-comprar" data_desc="BANCO Sistema Base" data_price="6480">Comprar</button>
