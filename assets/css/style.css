@@ -11918,6 +11918,32 @@ label.error {
 #btn-comprar{
     margin-right: 15px;
 }
-.instagram-media{
-  width: 340px !important;
+.instagram-media{  
+  width: 440px !important;
+}
+.pass-noticias{
+  padding: 15px;
+  background-color: #5f5f5f;
+  color: #FFF;
+  width: 440px;  
+  justify-content: center;
+  text-align: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.pass-noticias h1{
+  color: #FFF !important; 
+  font-size: 24px;
+  text-align: center;
+}
+.pass-noticias button{
+  justify-content: flex-end;
+  text-align: end;
+  align-content: flex-end;
+  width: 32%;
+  margin-top: 10px;
+}
+#input-pass-noticias{
+  width: 80%;
+  margin: auto;
 }
