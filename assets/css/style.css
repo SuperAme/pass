@@ -11919,13 +11919,16 @@ label.error {
     margin-right: 15px;
 }
 .instagram-media{  
-  width: 440px !important;
+  width: 90% !important;
+}
+.aside img,.aside iframe{
+  width: 90%;
 }
 .pass-noticias{
   padding: 15px;
   background-color: #5f5f5f;
   color: #FFF;
-  width: 440px;  
+  width: 90%;  
   justify-content: center;
   text-align: inherit;
   display: flex;
@@ -11940,7 +11943,7 @@ label.error {
   justify-content: flex-end;
   text-align: end;
   align-content: flex-end;
-  width: 32%;
+  width: 125px;
   margin-top: 10px;
 }
 #input-pass-noticias{
