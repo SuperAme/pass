@@ -410,17 +410,48 @@
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
+
+                                
                                     <div class="item active">
-                     
-                                     <img src="img/img1.png" salt="Los Angeles">
+
+                                        <div class="row" >
+                                            <div class="col-md-9" >
+                                                <img src="img/img1.png" alt="Chicago" >
+                                            </div>
+                                            <div class="col-md-3">
+                                                <?php 
+                                                    include ("blog-pass/php/conexion2.php");
+                                                    echo "<td>".$fila["titulo"]."</td> \n";
+                                                    echo "<br>";
+                                                    echo "<td>".$fila["resena"]."</td> \n";
+
+                                                ?>
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <div class="item">
-                                    <img src="img/img1.png" alt="Chicago">
+                                        <div class="row" >
+                                            <div class="col-md-9" >
+                                                <img src="img/img1.png" alt="Chicago" >
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>prueba de slider2</p>
+                                            </div>
+                                        </div>
                                     </div>
 
+
                                     <div class="item">
-                                    <img src="img/img1.png" alt="New York">
+
+                                        <div class="row">
+                                            <div class="col-md-9" >
+                                                <img src="img/img1.png" alt="Chicago" >
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>prueba de slider3</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
