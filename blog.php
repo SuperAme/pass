@@ -1,4 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    $servidor="localhost";
+    $usuario="root";
+    $password="";
+    $basededatos="blog_pass"
+
+
+
+
+?>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
@@ -21,6 +31,7 @@
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <!-- CSS  -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -360,11 +371,62 @@
         <!-- Container -->
         <div class="container-fluid">
             <div class="col-md-1"></div>
-            <div class="col-md-7">
-                <div class="row" style="display: flex; flex-direction: row-reverse;">
-                    <p>Ultimas noticias</p>
+            <div class="col-md-6">
+                <div class="row">
+                    <br/>
+                        <img src="img/img1.png">
+                    <br/>
+                    <div class="col-md-4">
+                            <p><strong></strong>Si te gusto compartelo</strong></p>
+                            <div id="fb-root"></div>
+                                    <script>(function(d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) return;
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                     }(document, 'script', 'facebook-jssdk'));</script>
+
+                            <!-- Boton de Compartir -->
+                            <div class="fb-share-button" name="Compartir"
+                                data-href="https://www.pass.com.mx/blog.html" 
+                                data-layout="button_count">
+                            </div>
+                    </div>
+                    <div class="col-md-8">
+
+                            <?php
+                            $consulta = "SELECT titulo from blog where id=1";
+                            $resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
+                                echo "<input> </input>";
+       
+                            ?>
+
+                                     
+                            <ul class="breadcrumb">
+                                    <li class="bre-title active hidden-small">No tengas problemas en este 2019 </li>
+                                    <li><a class="pathway" href="index.html">Actualiza el reinstralable No. 15 del Sistema Aspel-NOI 8.0
+                                        </a></li>
+                                    <li class="uk-active"><span>Blog</span></li>
+                                </ul>                            
+
+
+
+
+                        
+                    </div>
+
+
+                    
+                </div>
+                <div class="row">
+                    
+
+
                 </div>
             </div>
+
+
             <div class="col-md-1"></div>
             <div class="col-md-3 aside">
                 <div class="pass-noticias">

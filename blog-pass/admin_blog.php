@@ -8,12 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="./assets/js/blog.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="plugin/tinymce/tinymce.min.js"></script>
-    <script type="text/javascript" src="plugin/tinymce/init-tinymce.js"></script>
     <title>Administrador | PASS</title>
 </head>
-
+<?php
+echo '<pre>';
+print_r($_POST);
+echo '</pre>';
+?>
 <body>
     <div class="container">
         	<!--
@@ -22,15 +23,6 @@
 				-->
 		<form action="php/conexion.php" method ="POST" enctype="multipart/form-data" >
             <div class="form-group col-md-6">
-                    <select class="form-group" name="mi_combobox">
-                            <option value="valor_1">Noticia principal</option>
-                            <option value="valor_2">Slide 1</option>
-                            <option value="valor_3">Slide 2</option>
-                            <option value="valor_4">Slide 3</option>
-
-
-                    </select> 
-
                 <div class="form-group">
 					<label form="titulo">Titulo &nbsp; &nbsp; &nbsp;</label>
                     <input type="text" maxlength="100" name="titulo" placeholder="Titulo de la Nota " class="form-control input-sm" required>
@@ -42,22 +34,20 @@
                 </div>
 
                 <div class="form-group">
-                        <label>Imagen:</label> 
-                        <input id="imagen" name="imagen" type="file">
+                        <label form="ima">Imagen:</label> 
+                        <input name="imagen" type="file">
                 </div> 
 
                 <div class="form-group">
-                    <textarea class="tinymce" name="texto" required></textarea>
-                    
+					<textarea class="tinymce" name="texto" required></textarea>
                 </div>
-
-                <input type="submit" value="Agregar" name="enviar" style="cursor: pointer">
-
+                
+                <button type="submit" class="btn btn-primary" >Subir</button>
             </div>            
         </form>
-       
-    </div> 
-       
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="plugin/tinymce/tinymce.min.js"></script>
+		<script type="text/javascript" src="plugin/tinymce/init-tinymce.js"></script>
+    </div>    
 </body>
-
 </html>
