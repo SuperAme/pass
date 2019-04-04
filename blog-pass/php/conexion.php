@@ -3,9 +3,9 @@
 	Datos de la base de datos
 	*/
 	$servidor="localhost";
-	$usuario="root";
-	$password="";
-	$basededatos="blog_pass";
+	$usuario="passcom_admin";
+	$password="2019_pass";
+	$basededatos="passcom_blog_pass";
 
 	$v1=$_POST['titulo'];
 	$v2=$_POST['resumen'];
@@ -14,7 +14,7 @@
 	/*
 	Creación de la conexión a la base de datos con mysql_connect()
 	*/
-	$conexion = mysqli_connect($servidor, $usuario, "" ) or die ("No se ha podido conectar al servidor de Base de datos");
+	$conexion = mysqli_connect($servidor, $usuario, $password ) or die ("No se ha podido conectar al servidor de Base de datos");
 	
 	/* 
 	Selección de la base de datos a utilizar
