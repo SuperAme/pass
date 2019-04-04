@@ -2,10 +2,17 @@
 	/*
 	Datos de la base de datos
 	*/
+	/*
 	$servidor="localhost";
 	$usuario="passcom_admin";
 	$password="2019_pass";
 	$basededatos="passcom_blog_pass";
+*/
+	$servidor="localhost";
+	$usuario="root";
+	$password="";
+	$basededatos="blog_pass";
+	
 
 	$v1=$_POST['titulo'];
 	$v2=$_POST['resumen'];

@@ -354,6 +354,7 @@
         <div class="container-fluid">
             <div class="col-md-1"></div>
             <div class="col-md-6">
+            
             <div class="row" style="display:flex; flex-direction:row-reverse">
                 <p>Siguenos ...</p>
             </div>
