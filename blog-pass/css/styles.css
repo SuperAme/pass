@@ -168,3 +168,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.robot{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+    color: #cf0a2c;
+}
+
