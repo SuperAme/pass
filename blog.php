@@ -416,10 +416,7 @@
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
-
-                                
                                     <div class="item active">
-
                                         <div class="row" >
                                             <div class="col-md-9" >
                                                 <img src="img/img2.png" alt="Chicago" >
@@ -430,13 +427,8 @@
                                                     echo "<td>".$fila2["titulo"]."</td> \n";
                                                     echo "<br>";
                                                     echo "<td>".$fila2["resena"]."</td> \n";
-
                                                 ?>
-                                                
                                                 <button class="btn btn-danger btn-md" onclick="location.href='blogDOS.php'" type="submit">Seguir Leyendo</button>                   
-                                                
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -510,13 +502,9 @@
                     </div>
             </div>
 
-
-
-
-
-
             <div class="col-md-1"></div>
-            <div class="col-md-3 aside">
+            <div class="col-md-4 aside">
+            <br><br>
                 <div class="pass-noticias">
                     <h1><strong>RECIBE PASS NOTICIAS</strong></h1><br/><br/>
                     <p><strong>Entérate de lo ultimo de nuestras noticias Pass.<br/>Aquí encontrarás actualizaciones en Sistemas Aspel, cursos, capcitaciones en linea, webinars, 

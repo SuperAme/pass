@@ -59,6 +59,10 @@ if($user != "admin"){
                             <option value="valor_2">Novedades Aspel 1</option>
                             <option value="valor_3">Novedades Aspel 2</option>
                             <option value="valor_4">Novedades Aspel 3</option>
+                            <option value="valor_5">Capacitación</option>
+                            <option value="valor_6">Fiscales</option>
+                            <option value="valor_7">Mantenimiento</option>
+                            <option value="valor_8">Eventos</option>
                     </select> 
 
                 <div class="form-group">
