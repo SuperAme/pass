@@ -2,22 +2,22 @@
 require_once 'passwordLib.php';
 //echo password_hash("SE@dmin2017", PASSWORD_DEFAULT)."\n";
 session_start();
-/*
-$servername = "localhost";
+
+/*$servername = "localhost";
 $username = "root";
-$password = "XeyhJpQWRrL8ChRJ";
-$dbname = "test";
-$port = 3306;
-*/
+$password = "";
+$dbname = "passcom_blog";*/
+
+
 
 $servername = "localhost";
 $username = "passcom_des";
 $password = "vpOs])Tc[Uz$";
 $dbname = "passcom_blog";
-$port = 3306;
 
 
-$conn = new mysqli($servername, $username, $password, $dbname, $port);
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

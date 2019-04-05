@@ -1,157 +1,15 @@
+span a {
+    color: #FFF !important;
+    font-size: 15px;
+}
 #main-logo {
     width: 162px;
     margin-top: -13px;
 }
-
-#mainNav {
-	min-height: 60px;
-}
-/*
-#portfolio {
-    background-image: url("../img/wood-coffee-iphone-notebook.jpg");
-}
-*/
-#portafolio h2 {
-    margin-bottom: 30px;
+form{
+    justify-content: center;
 }
 
-.navbar-cursos, .videos-footer {
-    background-color: #222;
-}
-
-.modal-dialog {
-    margin: 10vh auto 0px auto;
-}
-
-#userName {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 13px;
-    color: #ff5567;
-    margin-top: 15px;
-}
-
-.card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-}
-
-/*Para modal de video*/
-/*
-#modalVideo .modal-content iframe{
-    margin: 0 auto;
-    display: block;
-}
-*/
-/* The Modal (background) */
-.modalFull {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 5000; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modalFull .modal-content {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 800px;
-}
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-.modalFull #caption {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation - Zoom in the Modal */
-.modalFull .modal-content, #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)}
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.modalFull .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.modalFull .close:hover,
-.modalFull .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modalFull .modal-content {
-        width: 100%;
-    }
-}
-/*------Para modal de video*/
-
-#footer {
-    background-color: #222;
-}
-
-.muted {
-    color: #d3d3d3;
-}
-
-.container .credit {
-    margin: 20px 0;
-}
-
-#services {
-    padding: 30px 0;
-}
-
-.leyend {
-    margin-top: 40px;
-}
-
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
-}
 
 /* Safari */
 @-webkit-keyframes spin {
@@ -165,6 +23,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-family: 'Roboto';
 }
 

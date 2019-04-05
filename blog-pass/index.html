@@ -137,7 +137,7 @@
                 var password = $("input[name='password']").val();
                 $.post("php/login.php", {"login": true, "x": userName, "a": password}).done(function(data) {
                     if (data == "true"){
-                        location.href = "admin_blog.html"
+                        location.href = "admin_blog.php"
                     }
                     else {
                         alert("Verifica tus datos!!")
