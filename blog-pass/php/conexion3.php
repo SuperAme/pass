@@ -13,8 +13,6 @@
 	$password="";
 	$basededatos="blog_pass";
 	
-
-	
 	/*
 	Creación de la conexión a la base de datos con mysql_connect()
 	*/
