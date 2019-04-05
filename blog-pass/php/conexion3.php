@@ -25,11 +25,11 @@
 	*/
     $db = mysqli_select_db( $conexion, $basededatos ) or die ( "Hay un problema con el nombre de su base de datos" );
 
-    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=1 ";
+    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=2 ";
 
     $resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
 
-    $fila1 = mysqli_fetch_array($resultado);
+    $fila2 = mysqli_fetch_array($resultado);
 
 	mysqli_close( $conexion );
 

@@ -1,3 +1,5 @@
+
+
 <?php
 	/*
 	Datos de la base de datos
@@ -16,7 +18,8 @@
 
 	
 	/*
-	Creación de la conexión a la base de datos con mysql_connect()
+	Creación de la conexión a la base de datos con m
+    ysql_connect()
 	*/
 	$conexion = mysqli_connect($servidor, $usuario, $password ) or die ("No se ha podido conectar al servidor de Base de datos");
 	
@@ -25,11 +28,11 @@
 	*/
     $db = mysqli_select_db( $conexion, $basededatos ) or die ( "Hay un problema con el nombre de su base de datos" );
 
-    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=1 ";
+    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=4 ";
 
     $resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
 
-    $fila1 = mysqli_fetch_array($resultado);
+    $fila4 = mysqli_fetch_array($resultado);
 
 	mysqli_close( $conexion );
 

@@ -1,11 +1,4 @@
-﻿<?php
-    $servidor="localhost";
-    $usuario="root";
-    $password="";
-    $basededatos="blog_pass"
-    ?>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
@@ -358,7 +351,7 @@
             <div class="col-md-6">
             
                     <div class="row" style="display:flex; flex-direction:row-reverse">
-                        <p>Siguenos ...</p>
+                        <p>Últimas Noticias</p>
                     </div>
 
                     <div class="row">                
@@ -389,9 +382,9 @@
                             <div class="col-md-8">
                                 <?php 
                                     include ("blog-pass/php/conexion2.php");
-                                    echo "<td>".$fila["titulo"]."</td> \n";
+                                    echo "<td>".$fila1["titulo"]."</td> \n";
                                     echo "<br>";
-                                    echo "<td>".$fila["resena"]."</td> \n";
+                                    echo "<td>".$fila1["resena"]."</td> \n";
 
                                 ?>
                             
@@ -416,14 +409,14 @@
 
                                         <div class="row" >
                                             <div class="col-md-9" >
-                                                <img src="img/img1.png" alt="Chicago" >
+                                                <img src="img/img2.png" alt="Chicago" >
                                             </div>
                                             <div class="col-md-3">
                                                 <?php 
-                                                    include ("blog-pass/php/conexion2.php");
-                                                    echo "<td>".$fila["titulo"]."</td> \n";
+                                                    include ("blog-pass/php/conexion3.php");
+                                                    echo "<td>".$fila2["titulo"]."</td> \n";
                                                     echo "<br>";
-                                                    echo "<td>".$fila["resena"]."</td> \n";
+                                                    echo "<td>".$fila2["resena"]."</td> \n";
 
                                                 ?>
                                             </div>
@@ -433,10 +426,16 @@
                                     <div class="item">
                                         <div class="row" >
                                             <div class="col-md-9" >
-                                                <img src="img/img1.png" alt="Chicago" >
+                                                <img src="img/img3.png" alt="Chicago" >
                                             </div>
                                             <div class="col-md-3">
-                                                <p>prueba de slider2</p>
+                                                 <?php 
+                                                    include ("blog-pass/php/conexion4.php");
+                                                    echo "<td>".$fila3["titulo"]."</td> \n";
+                                                    echo "<br>";
+                                                    echo "<td>".$fila3["resena"]."</td> \n";
+
+                                                ?>
                                             </div>
                                         </div>
                                     </div>
@@ -446,10 +445,16 @@
 
                                         <div class="row">
                                             <div class="col-md-9" >
-                                                <img src="img/img1.png" alt="Chicago" >
+                                                <img src="img/img4.png" alt="Chicago" >
                                             </div>
                                             <div class="col-md-3">
-                                                <p>prueba de slider3</p>
+                                                 <?php 
+                                                    include ("blog-pass/php/conexion5.php");
+                                                    echo "<td>".$fila4["titulo"]."</td> \n";
+                                                    echo "<br>";
+                                                    echo "<td>".$fila4["resena"]."</td> \n";
+
+                                                ?>
                                             </div>
                                         </div>
                                     </div>
@@ -469,6 +474,22 @@
 
                     </div>
 
+                
+                    
+                    <div class="row">     
+                            <div class="col-md-3" >
+                                <img src="img/img5.png" alt="Chicago" >
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/img6.png" alt="Chicago" >
+                            </div> 
+                            <div class="col-md-3">
+                                <img src="img/img7.png" alt="Chicago" >
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/img8.png" alt="Chicago" >
+                            </div>          
+                    </div>
             </div>
 
 
