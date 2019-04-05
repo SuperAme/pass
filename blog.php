@@ -368,7 +368,8 @@
                     <br>
                     <div class="row">
                             <div class="col-md-4">
-                                <p><strong></strong>Si te gusto compartelo</strong></p>
+                                <p class="es"><strong></strong>Si te gusto ¡Compártelo!</strong></p>
+                                <br>
                                     <script>(function(d, s, id) {
                                         var js, fjs = d.getElementsByTagName(s)[0];
                                         if (d.getElementById(id)) return;
@@ -387,15 +388,14 @@
                                         <!--Fin Boton de Compartir -->
                                     </div>
                             </div>
+
                             <div class="col-md-8">
                                 <?php 
                                     include ("blog-pass/php/conexion2.php");
-                                    echo "<small class='robot'>".$fila1["titulo"]."</small> \n";
+                                    echo "<p class='robot'>".$fila1["titulo"]."</p> \n";
                                     echo "<br>";
                                     echo "<p>".$fila1["resena"]."</p> \n";
-
                                 ?>
-                            
                             </div>  
                     </div>
 
@@ -409,7 +409,7 @@
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="0" ></li>
                                     <li data-target="#myCarousel" data-slide-to="1"></li>
                                     <li data-target="#myCarousel" data-slide-to="2"></li>
                                 </ol>
@@ -418,17 +418,20 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <div class="row" >
-                                            <div class="col-md-9" >
-                                                <img src="img/img2.png" alt="Chicago" >
+                                            <div class="col-md-8" >
+                                                <img src="img/img2.png" alt="ASPEL1" >
                                             </div>
-                                            <div class="col-md-3">
-                                                <?php 
-                                                    include ("blog-pass/php/conexion3.php");
-                                                    echo "<td>".$fila2["titulo"]."</td> \n";
-                                                    echo "<br>";
-                                                    echo "<td>".$fila2["resena"]."</td> \n";
-                                                ?>
-                                                <button class="btn btn-danger btn-md" onclick="location.href='blogDOS.php'" type="submit">Seguir Leyendo</button>                   
+                                            <div class="col-md-4">
+                                                <div class="ed">
+                                                    <?php 
+                                                        include ("blog-pass/php/conexion3.php");
+                                                        
+                                                        echo "<p class='robot'>".$fila2["titulo"]."</p> \n";
+                                                        echo "<br>";                                       
+                                                        echo "<p>".$fila2["resena"]."</p> \n";
+                                                    ?>
+                                                    <button class="btn btn-danger btn-md" onclick="location.href='blogDOS.php'" type="submit">Seguir Leyendo</button>                   
+                                                 </div>
                                             </div>
                                         </div>
                                     </div>
@@ -441,11 +444,12 @@
                                             <div class="col-md-3">
                                                  <?php 
                                                     include ("blog-pass/php/conexion4.php");
-                                                    echo "<td>".$fila3["titulo"]."</td> \n";
+                                                    echo "<p class='robot'>".$fila3["titulo"]."</p> \n";
                                                     echo "<br>";
-                                                    echo "<td>".$fila3["resena"]."</td> \n";
-
+                                                    echo "<p>".$fila3["resena"]."</p> \n";
                                                 ?>
+                                                <button class="btn btn-danger btn-md" onclick="location.href='blogDOS.php'" type="submit">Seguir Leyendo</button>                   
+
                                             </div>
                                         </div>
                                     </div>
@@ -460,11 +464,12 @@
                                             <div class="col-md-3">
                                                  <?php 
                                                     include ("blog-pass/php/conexion5.php");
-                                                    echo "<td>".$fila4["titulo"]."</td> \n";
+                                                    echo "<p class='robot'>".$fila4["titulo"]."</p> \n";
                                                     echo "<br>";
-                                                    echo "<td>".$fila4["resena"]."</td> \n";
-
+                                                    echo "<p>".$fila4["resena"]."</p> \n";
                                                 ?>
+                                                <button class="btn btn-danger btn-md" onclick="location.href='blogDOS.php'" type="submit">Seguir Leyendo</button>                   
+                                       
                                             </div>
                                         </div>
                                     </div>
