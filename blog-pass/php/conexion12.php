@@ -1,7 +1,7 @@
 <?php
 include ("conexionPrincipal.php");
 
-    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=5 ";
+    $consulta = " SELECT `titulo`,`resena` from `blog` WHERE id=7 ";
 
     $resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
 

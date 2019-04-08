@@ -350,6 +350,21 @@
         <!-- End main menu -->
         
         
+        <div class="container-fluid">
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-8">  
+                <?php 
+
+                    include ("blog-pass/php/conexion12.php");
+                    include ("blog-pass/php/conexion13.php");
+                    echo "<br>";
+                    echo "<p class='robot'>".$fila1["titulo"]."</p> \n";
+                    echo "<p class='robot'>".$fila6["texto"]."</p> \n";
+                    echo "<br>";
+                ?>
+            </div>
+        </div>
        
         <!-- Fin Container -->
         <!-- Start footer -->
