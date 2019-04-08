@@ -348,13 +348,26 @@
             </div>
         </div>
         <!-- End main menu -->
-        
-        <?php 
-            include ("blog-pass/php/conexion7.php");
-            echo "<p class='robot'>".$fila7["texto"]."</p> \n";
-            echo "<br>";
+        <div class="container-fluid">
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-8">  
+            
+                <?php 
+                    include ("blog-pass/php/conexion3.php");
+                    include ("blog-pass/php/conexion7.php");                                                   
+                    echo "<p class='robot'>".$fila2["titulo"]."</p> \n";
+                    echo "<p class='robot'>".$fila7["texto"]."</p> \n";
+                    echo "<br>";
+                    
 
-        ?>
+                ?>
+            </div>
+        </div>
+
+
+
+        
        
         
         <!-- Start footer -->

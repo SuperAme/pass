@@ -24,7 +24,7 @@ include ("conexionPrincipal.php");
 			$destino="../img/img1.png";
 			$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
 			if (!empty($resultado)){        
-				header('Location: ../admin_blog.html');
+				header('Location: ../admin_blog.php');
 			}
 			else{
 				echo "el archivo no se subio correctamente";
@@ -40,17 +40,9 @@ include ("conexionPrincipal.php");
 	}
 	else{
 		if($_POST['opciones'] == 'valor_2'){
-			/* 
-			Una vez realiza la conexión, procederemos a hacer la consulta correspondiente.
-			En este caso vamos insertar e la base de datos los datos que se hayan ingresado en el formulario
-			*/
+
 			$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=2";
 			$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
-
-			/*
-			Codigo para subir la imagen a una carpeta, cabe señalar que esta imagen no se guarda en la base de datos,
-			lo único que hace es guardarla directamente en la carpeta
-			*/ 
 			$nombre ="../img/img2.png";
 			$nombrer = strtolower($nombre);
 			$cd=$_FILES["imagen"]['tmp_name'];
@@ -59,39 +51,16 @@ include ("conexionPrincipal.php");
 			$destino="../img/img2.png";
 			$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
 			if (!empty($resultado)){        
-				header('Location: ../admin_blog.html');
+				header('Location: ../admin_blog.php');
 			}
 			else{
 				echo "el archivo no se subio correctamente";
 			}
-
-			/* Codigo por si alguna vez se quisiera guardar la imagen en la base de datos               
-						if (!empty($resultado)){
-					
-					
-							mysqli_query($conexion,"INSERT INTO fotos VALUES ('". $nombre."','" . $destino . "')"); 
-							echo "el archivo ha sido movido exitosamente";
-
-						}else{
-
-							echo "Error al subir el archivo";
-
-							}
-			*/
 		}//fin del if para la opción 2
 		else{
 			if($_POST['opciones'] == 'valor_3'){
-				/* 
-				Una vez realiza la conexión, procederemos a hacer la consulta correspondiente.
-				En este caso vamos insertar e la base de datos los datos que se hayan ingresado en el formulario
-				*/
 				$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=3";
 				$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
-	
-				/*
-				Codigo para subir la imagen a una carpeta, cabe señalar que esta imagen no se guarda en la base de datos,
-				lo único que hace es guardarla directamente en la carpeta
-				*/ 
 				$nombre ="../img/img3.png";
 				$nombrer = strtolower($nombre);
 				$cd=$_FILES["imagen"]['tmp_name'];
@@ -100,39 +69,16 @@ include ("conexionPrincipal.php");
 				$destino="../img/img3.png";
 				$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
 				if (!empty($resultado)){        
-					header('Location: ../admin_blog.html');
+					header('Location: ../admin_blog.php');
 				}
 				else{
 					echo "el archivo no se subio correctamente";
 				}
-	
-				/* Codigo por si alguna vez se quisiera guardar la imagen en la base de datos               
-							if (!empty($resultado)){
-						
-						
-								mysqli_query($conexion,"INSERT INTO fotos VALUES ('". $nombre."','" . $destino . "')"); 
-								echo "el archivo ha sido movido exitosamente";
-	
-							}else{
-	
-								echo "Error al subir el archivo";
-	
-								}
-				*/
 			}//fin del if para la opción 3
 			else{
 				if($_POST['opciones'] == 'valor_4'){
-					/* 
-					Una vez realiza la conexión, procederemos a hacer la consulta correspondiente.
-					En este caso vamos insertar e la base de datos los datos que se hayan ingresado en el formulario
-					*/
 					$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=4";
 					$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
-		
-					/*
-					Codigo para subir la imagen a una carpeta, cabe señalar que esta imagen no se guarda en la base de datos,
-					lo único que hace es guardarla directamente en la carpeta
-					*/ 
 					$nombre ="../img/img4.png";
 					$nombrer = strtolower($nombre);
 					$cd=$_FILES["imagen"]['tmp_name'];
@@ -141,26 +87,87 @@ include ("conexionPrincipal.php");
 					$destino="../img/img4.png";
 					$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
 					if (!empty($resultado)){        
-						header('Location: ../admin_blog.html');
+						header('Location: ../admin_blog.php');
 					}
 					else{
 						echo "el archivo no se subio correctamente";
 					}
-		
-					/* Codigo por si alguna vez se quisiera guardar la imagen en la base de datos               
-								if (!empty($resultado)){
-							
-							
-									mysqli_query($conexion,"INSERT INTO fotos VALUES ('". $nombre."','" . $destino . "')"); 
-									echo "el archivo ha sido movido exitosamente";
-		
-								}else{
-		
-									echo "Error al subir el archivo";
-		
+				}//fin del if para la opción 4
+				else{
+					if($_POST['opciones'] == 'valor_5'){
+						$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=5";
+						$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
+						$nombre ="../img/img5.png";
+						$nombrer = strtolower($nombre);
+						$cd=$_FILES["imagen"]['tmp_name'];
+						$ruta = "../img/img5.png";
+						//$destino = "img/".$nombrer;
+						$destino="../img/img5.png";
+						$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
+						if (!empty($resultado)){        
+							header('Location: ../admin_blog.php');
+						}
+						else{
+							echo "el archivo no se subio correctamente";
+						}
+					}//fin del if para la opción 5
+					else{
+						if($_POST['opciones'] == 'valor_6'){
+							$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=6";
+							$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
+							$nombre ="../img/img6.png";
+							$nombrer = strtolower($nombre);
+							$cd=$_FILES["imagen"]['tmp_name'];
+							$ruta = "../img/img6.png";
+							//$destino = "img/".$nombrer;
+							$destino="../img/img6.png";
+							$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
+							if (!empty($resultado)){        
+								header('Location: ../admin_blog.php');
+							}
+							else{
+								echo "el archivo no se subio correctamente";
+							}
+						}//fin del if para la opción 6
+						else{
+							if($_POST['opciones'] == 'valor_7'){
+								$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=7";
+								$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
+								$nombre ="../img/img7.png";
+								$nombrer = strtolower($nombre);
+								$cd=$_FILES["imagen"]['tmp_name'];
+								$ruta = "../img/img7.png";
+								//$destino = "img/".$nombrer;
+								$destino="../img/img7.png";
+								$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
+								if (!empty($resultado)){        
+									header('Location: ../admin_blog.php');
+								}
+								else{
+									echo "el archivo no se subio correctamente";
+								}
+							}//fin del if para la opción 7
+							else{
+									$consulta = "UPDATE blog set titulo='$v1', resena='$v2', texto='$v3' where id=8";
+									$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
+									$nombre ="../img/img8.png";
+									$nombrer = strtolower($nombre);
+									$cd=$_FILES["imagen"]['tmp_name'];
+									$ruta = "../img/img8.png";
+									//$destino = "img/".$nombrer;
+									$destino="../img/img8.png";
+									$resultado = @move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
+									if (!empty($resultado)){        
+										header('Location: ../admin_blog.php');
 									}
-					*/
-				}//fin del if para la opción 2
+									else{
+										echo "el archivo no se subio correctamente";
+									}
+								
+							}
+						}
+					}
+				}
 			}
 		}
 	}

@@ -11,6 +11,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="plugin/tinymce/tinymce.min.js"></script>
     <script type="text/javascript" src="plugin/tinymce/init-tinymce.js"></script>
+    <script type="text/javascript" src="js/validaFormulario.js"></script>
     <title>Administrador | PASS</title>
 </head>
 
@@ -22,7 +23,7 @@
 				-->
 		<form action="php/conexion.php" method ="POST" enctype="multipart/form-data" >
             <div class="form-group col-md-6">
-                    <select class="form-group" name="opciones">
+                    <select class="form-group" name="opciones" id="opciones">
                             <option value="valor_1">Últimas Noticias</option>
                             <option value="valor_2">Novedades Aspel 1</option>
                             <option value="valor_3">Novedades Aspel 2</option>

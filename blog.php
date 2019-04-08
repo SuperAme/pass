@@ -444,46 +444,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="item">
-                                        <div class="row" >
-                                            <div class="col-md-9" >
-                                                <img src="img/img3.png" alt="ASPEL2" >
-                                            </div>
-                                            <div class="col-md-3">
-                                                 <?php 
-                                                    include ("blog-pass/php/conexion4.php");
-                                                    echo "<p class='robot'>".$fila3["titulo"]."</p> \n";
-                                                    echo "<br>";
-                                                    echo "<p>".$fila3["resena"]."</p> \n";
-                                                ?>
-                                                <br>
-                                                <button class="btn btn-danger btn-md" onclick="location.href='blogTRES.php'" type="submit">Seguir Leyendo</button>                   
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-
-
-                                    <div class="item">
-
-                                        <div class="row">
-                                            <div class="col-md-9" >
-                                                <img src="img/img4.png" alt="Chicago" >
-                                            </div>
-                                            <div class="col-md-3">
-                                                 <?php 
-                                                    include ("blog-pass/php/conexion5.php");
-                                                    echo "<p class='robot'>".$fila4["titulo"]."</p> \n";
-                                                    echo "<br>";
-                                                    echo "<p>".$fila4["resena"]."</p> \n";
-                                                ?>
-                                                <br>
-                                                <button class="btn btn-danger btn-md" onclick="location.href='blogCUATRO.php'" type="submit">Seguir Leyendo</button>                   
-                                       
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
                                 </div>
 
                                
@@ -504,16 +465,16 @@
                     <br><br><br><br>    
                     <div class="row">     
                             <div class="col-md-3" >
-                                <img src="img/img5.png" alt="Chicago" >
+                                <a href="blogCINCO.php"> <img src="img/img5.png"  alt="Capacitación" > CAPACITACIÓN ONLINE / WEBINARS</a>
                             </div>
                             <div class="col-md-3">
-                                <img src="img/img6.png" alt="Chicago" >
+                                <a href="blogSEIS.php"> <img src="img/img6.png"  alt="Fiscales">ACTUALIZACIONES FISCALES</a>
                             </div> 
                             <div class="col-md-3">
-                                <img src="img/img7.png" alt="Chicago" >
+                                <a  href="blogSIETE.php"> <img src="img/img7.png" alt="Mantenimiento">INFRAESTRUCTURA Y MANTENIMIENTO</a>
                             </div>
                             <div class="col-md-3">
-                                <img src="img/img8.png" alt="Chicago" >
+                                <a href="blogOCHO.php"> <img src="img/img8.png" alt="Eventos">EVENTOS</a>
                             </div>          
                     </div>
             </div>

@@ -4,7 +4,7 @@
 <!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
+<!--[if (gt IE 9)|!(IE)]>test<!-->
 <html class="no-js" lang="es-MX">
     <head>
         <meta charset="utf-8">
@@ -348,23 +348,10 @@
             </div>
         </div>
         <!-- End main menu -->
-
-        <div class="container-fluid">
-            <div class="col-md-2"></div>
-            
-            <div class="col-md-8">  
-                <?php 
-
-                    include ("blog-pass/php/conexion2.php");
-                    include ("blog-pass/php/conexion6.php");
-                    echo "<br>";
-                    echo "<p class='robot'>".$fila1["titulo"]."</p> \n";
-                    echo "<p class='robot'>".$fila6["texto"]."</p> \n";
-                    echo "<br>";
-                ?>
-            </div>
-        </div>
-
+        
+        
+       
+        <!-- Fin Container -->
         <!-- Start footer -->
         <footer>
             <div class="footer-top">
