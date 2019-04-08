@@ -471,10 +471,10 @@
                                 <a href="blogSEIS.php"> <img src="img/img6.png"  alt="Fiscales">ACTUALIZACIONES FISCALES</a>
                             </div> 
                             <div class="col-md-3">
-                                <a  href="blogSIETE.php"> <img src="img/img7.png" alt="Mantenimiento">INFRAESTRUCTURA Y MANTENIMIENTO</a>
+                                <a  href="blogCINCO.php"> <img src="img/img7.png" alt="Mantenimiento">INFRAESTRUCTURA Y MANTENIMIENTO</a>
                             </div>
                             <div class="col-md-3">
-                                <a href="blogOCHO.php"> <img src="img/img8.png" alt="Eventos">EVENTOS</a>
+                                <a href="blogSEIS.php"> <img src="img/img8.png" alt="Eventos">EVENTOS</a>
                             </div>          
                     </div>
             </div>

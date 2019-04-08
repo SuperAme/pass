@@ -358,11 +358,10 @@
             <div class="col-md-8">  
                 <?php 
 
-                    include ("blog-pass/php/conexion10.php");
                     include ("blog-pass/php/conexion11.php");
                     echo "<br>";
-                    echo "<p class='robot'>".$fila1["titulo"]."</p> \n";
-                    echo "<p class='robot'>".$fila6["texto"]."</p> \n";
+                    echo "<p class='robot'>".$fila11["titulo"]."</p> \n";
+                    echo "<p class='robot'>".$fila11["texto"]."</p> \n";
                     echo "<br>";
                 ?>
             </div>

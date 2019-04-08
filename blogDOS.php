@@ -358,9 +358,7 @@
                     include ("blog-pass/php/conexion7.php");                                                   
                     echo "<p class='robot'>".$fila2["titulo"]."</p> \n";
                     echo "<p class='robot'>".$fila7["texto"]."</p> \n";
-                    echo "<br>";
-                    
-
+                    echo "<br>";     
                 ?>
             </div>
         </div>
