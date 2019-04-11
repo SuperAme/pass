@@ -381,7 +381,7 @@
                                     <div class="row">
                                         <!-- Boton de Compartir -->
                                         <div class="fb-share-button" name="Compartir"
-                                            data-href="https://www.pass.com.mx/blog.html" 
+                                            data-href="https://www.pass.com.mx/blogUNO.php" 
                                             data-layout="button_count">
                                         </div>
                                         <!--Fin Boton de Compartir -->
@@ -398,10 +398,7 @@
                                   <br>
                                 <button class="btn btn-danger btn-md" onclick="location.href='blogUNO.php'" type="submit">Seguir Leyendo</button>                   
 
-                                 </div>
-                              
-                                
-                                
+                                 </div>                            
                             </div>  
                    
 
@@ -411,13 +408,8 @@
                                     <img src="img/def.png">
                         </div>
                     </div>
-                    <div class="row">
-                   
+                    <div class="row">                  
                         <div class="col-md-11">
-
-                       
-                           
-
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
                                         <ol class="carousel-indicators">
@@ -429,10 +421,34 @@
                                         <!-- Wrapper for slides -->
                                         <div class="carousel-inner">
                                             <div class="item active">
-                                                <div class="row" >
+                                                <div class="row">
                                                 
                                                     <div class="col-md-8" >
                                                         <img src="img/img2.png" alt="ASPEL1" >
+                                                        <div class="col-md-1" ></div>
+                                                        <div class="col-md-12" >
+                                                            <p class="es"><strong></strong>Si te gustó ¡Compártelo!</strong></p>
+                                                            <br>
+                                                                <script>(function(d, s, id) {
+                                                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                                                    if (d.getElementById(id)) return;
+                                                                    js = d.createElement(s); js.id = id;
+                                                                    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                                    }(document, 'script', 'facebook-jssdk'));
+                                                                </script>
+                                                            
+                                                                <div class="row">
+                                                                    <!-- Boton de Compartir -->
+                                                                    <div class="fb-share-button" name="Compartir"
+                                                                        data-href="https://www.pass.com.mx/blogDOS.php" 
+                                                                        data-layout="button_count">
+                                                                    </div>
+                                                                    <!--Fin Boton de Compartir -->
+                                                                </div>
+                                                        </div>
+
+                                                            
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="ed">
@@ -468,58 +484,75 @@
                     </div>
 
                 
-                    <br><br><br><br><br><br><br><br>       
+                    <br><br>  
+
+
+                    <div class="row">
+                        <div class="col-md-12" >
+                            <div class="col-md-12" >
+                                        <img src="img/publicidad-1.png">
+                                        <img src="img/publicidad-2.png">
+                                        <img src="img/publicidad-3.png">
+                            </div>            
+                        </div>
+                    </div>
+                    <br><br>   
+
 
                     <div class="row">     
-                            <div class="col-md-3" >
-                                <a href="blogCINCO.php" > <img src="img/img5.png"  alt="Capacitación" >
-                                        <div align="center">
-                                         CAPACITACIÓN ONLINE/WEBINARS
-                                        </div>       
-                                </a>
-                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-3">
+                                    <a href="blogCINCO.php" > <img src="img/img5.png"  alt="Capacitación" >
+                                            <div align="center" class="robots">
+                                            CAPACITACIÓN ONLINE/WEBINARS
+                                            </div>       
+                                    </a>
+                                </div>
 
-                            <div class="col-md-3">
-                                <a href="blogSEIS.php"> <img src="img/img6.png"  alt="Fiscales">
-                                        <div align="center">
-                                            ACTUALIZACIONES FISCALES
-                                        </div>     
-                                </a>
-                            </div> 
+                                <div class="col-md-3">
+                                    <a href="blogSEIS.php"> <img src="img/img6.png"  alt="Fiscales">
+                                            <div align="center" class="robots">
+                                                ACTUALIZACIONES FISCALES
+                                            </div>     
+                                    </a>
+                                </div> 
 
-                            <div class="col-md-3">
-                                <a  href=""> <img src="img/img7.png" alt="Mantenimiento">
-                                        <div align="center">
-                                            INFRAESTRUCTURA Y MANTENIMIENTO
-                                        </div> 
-                                </a>
-                            </div>
+                                <div class="col-md-3">
+                                    <a  href=""> <img src="img/img7.png" alt="Mantenimiento">
+                                            <div align="center" class="robots">
+                                                INFRAESTRUCTURA Y MANTENIMIENTO
+                                            </div> 
+                                    </a>
+                                </div>
 
-                            <div class="col-md-3">
-                                <a href=""> <img src="img/img8.png" alt="Eventos">
-                                        <div align="center">
-                                            EVENTOS
-                                        </div> 
-                                </a>
-                            </div>          
+                                <div class="col-md-3">
+                                    <a href=""> <img src="img/img8.png" alt="Eventos">
+                                            <div align="center" class="robots">
+                                                EVENTOS
+                                            </div> 
+                                    </a>
+                                </div>    
+                            </div>      
                     </div>
             </div>
             
             <div class="col-md-3 aside">
            
                 <div class="row">
-                <div class="col-md-11">
-                    <a href=""> <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo"><br></a>
-                </div>   
+                    <div class="col-md-12">
+                        <a href=""> <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo"><br></a>
+                        <a href=""> <img src="assets/img/blog_new/facebook.png" alt="Siguenos en Facebook"><br></a>
+
+                    </div>   
                 </div>
 
-                <div class="col-md-11">
-                    <br/>
+                <div class="col-md-10">
+                    
                     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
                     <div class="fb-page" data-href="https://www.facebook.com/passconsultores/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
                 </div>
               
-                <div class="col-md-11">
+                <div class="col-md-12">
                     <br/>
                     <a href=""> <img src="assets/img/blog_new/inge.png" alt="Inge Leo"><br></a>
                 </div>   

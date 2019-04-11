@@ -34,6 +34,12 @@ body{
     color: #cf0a2c;
 }
 
+.robots{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: .5em;
+}
+
 .es{
     color:royalblue;
 }
