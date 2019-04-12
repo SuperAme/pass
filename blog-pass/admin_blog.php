@@ -67,12 +67,12 @@ if($user != "admin"){
 
                 <div class="form-group">
 					<label form="titulo">Titulo &nbsp; &nbsp; &nbsp;</label>
-                    <input type="text" maxlength="100" name="titulo" placeholder="Titulo de la Nota " class="form-control input-sm" required>
+                    <input type="text" maxlength="100" name="titulo" placeholder="Titulo de la Nota" class="form-control input-sm" required>
                 </div>
 
                 <div class="form-group">
                     <label form = "correo" id="resumenLabel">Resumen </label>
-                    <input type="text" name="resumen" placeholder= "Resumen de la nota " class="form-control input-sm" id="resumenInput" required>
+                    <input type="text" name="resumen" placeholder= "Resumen de la nota " class="form-control input-sm" id="resumenInput">
                 </div>
 
                 <div class="form-group">
@@ -82,7 +82,6 @@ if($user != "admin"){
 
                 <div class="form-group">
                     <textarea id="myTestarea" class="tinymce" name="texto" ></textarea>
-                    
                 </div>
 
                 <input type="submit" class="btn btn-primary" value="Agregar" name="enviar" style="cursor: pointer">

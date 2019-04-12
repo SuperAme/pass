@@ -485,19 +485,43 @@
 
                 
                     <br><br>  
-
+                    <br><br>  
 
                     <div class="row">
-                        <div class="col-md-12" >
-                            <div class="col-md-12" >
-                                        <img src="img/publicidad-1.png">
-                                        <img src="img/publicidad-2.png">
-                                        <img src="img/publicidad-3.png">
-                            </div>            
-                        </div>
+                     <div class="col-md-12" >
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/publicidad-1.png"
+                                    alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100" src="img/publicidad-2.png"
+                                    alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100" src="img/publicidad-3.png"
+                                    alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                                                                    
+
+                     </div>
+                         
+
+                     </div>
+
                     </div>
                     <br><br>   
-
+                    <br><br>  
 
                     <div class="row">     
                             <div class="col-md-12">
@@ -540,11 +564,34 @@
            
                 <div class="row">
                     <div class="col-md-12">
-                        <a href=""> <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo"><br></a>
-                        <a href=""> <img src="assets/img/blog_new/facebook.png" alt="Siguenos en Facebook"><br></a>
 
+
+                                           <style type="text/css">
+                                            #boton {
+                                                left:10%;
+                                                top:50%;
+                                                position: absolute;
+                                                    }
+                                            img{float: left;}   
+                                            
+                                            </style>
+
+                                         
+                                            
+                    <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo"><br>
+                    <form action="mail.php" method ="POST" enctype="multipart/form-data" >
+    
+                        <div id="boton">
+                        
+                            <input type="email" name="nombredelacaja">
+                            <button class="btn btn-danger btn-md" onclick="location.href='blog.php'" type="submit">Suscribete Ya</button> 
+                        
+                        </div>
+                    </form>
+                        <a href=""> <img src="assets/img/blog_new/facebook.png" alt="Siguenos en Facebook"><br></a>
                     </div>   
                 </div>
+                
 
                 <div class="col-md-10">
                     
