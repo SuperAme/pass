@@ -490,7 +490,7 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
         //$(".paypal-btn input[name='item_name']").val("ADM VERSION BASICA");
         //$(".paypal-btn input[name='amount']").val("99");
         $("#btn-comprar").attr("data_desc", "ADM Versión Básica");
-        $("#btn-comprar").attr("data_price", "99");
+        $("#btn-comprar").attr("data_price", "114.84");
     });
     $("#precio-admP").click(function() {
         $("#precio-tipo").text("Versión Premium");
@@ -498,7 +498,7 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
         //$(".paypal-btn input[name='item_name']").val("ADM VERSION PREMIUM");
         //$(".paypal-btn input[name='amount']").val("159");
         $("#btn-comprar").attr("data_desc", "ADM Versión Premium");
-        $("#btn-comprar").attr("data_price", "159");
+        $("#btn-comprar").attr("data_price", "184.44");
     });
     
     if (title == "Precios FACTURE - PASS Consultores") {
@@ -665,7 +665,7 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
     $(".num-timbres a").click(function(){
         $("#show-timbres").text($(this).text());
         var numProducts = parseInt($(this).text().replace(",",""));
-        var preciosTimbrado = [[50,200,400,1000,2000,5000,10000,20000,50000,70000,100000],[220,441,557,1044,1578,3306,5800,10440,24360,31668,37620]];
+        var preciosTimbrado = [[50,200,400,1000,2000,5000,10000,20000,50000,70000,100000],[220,380,480,900,1360,2850,5000,9000,21000,27300,37000]];
         var precioFinal = 0;
         for(var x in preciosTimbrado[0]){
             if(numProducts == preciosTimbrado[0][x]){
