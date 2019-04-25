@@ -163,7 +163,6 @@ include ("conexionPrincipal.php");
 									else{
 										echo "el archivo no se subio correctamente";
 									}
-								
 							}
 						}
 					}
