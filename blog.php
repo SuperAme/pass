@@ -257,6 +257,25 @@
             </div>
         </div>
         <!-- End sidr menu -->
+                <!-- Start particles js -->
+                <div id="particles3-js">
+                    <div class="container"> 
+                        <div class="row">
+                        <div class="col-md-1">
+						            <div class="again-back">
+							            <a href="../" class="readon">Atrás</a>	
+						            </div>
+					            </div>
+					        <div class="col-md-8">
+						        <div class="top-title-k" id="cabecera_blog_texto">
+							        <h1>Blog</h1>
+						            </div>                  				
+					            </div>
+
+                            </div>
+                            </div>
+                    </div>		
+        <!-- End particles js -->
         <!-- Start main menu -->
         <div class="main-menu">
             <div class="container-fluid">
@@ -349,7 +368,6 @@
             </div>
         </div>
         <!-- End main menu -->
-        
         
         <!-- Container -->
         <div class="container-fluid">
@@ -520,7 +538,17 @@
                                 <br><br>   
                                 <br><br>  
 
-                                <div class="col-md-3" mx-auto>
+                                <style>
+                                    #img_servicios_ext_izq{
+                                        padding-left: 0%;
+                                    }
+
+                                    #img_servicios_ext_der{
+                                        padding-right: 0%;
+                                    }
+                                </style>
+
+                                <div class="col-md-3" mx-auto id="img_servicios_ext_izq">
                                     <a href="blogCINCO.php" > <img src="img/img5.png"  alt="Capacitación" >
                                             <div align="center" class="robots">
                                                 CAPACITACIÓN ONLINE/WEBINARS
@@ -544,13 +572,13 @@
                                     </a>
                                 </div>
 
-                                <div class="col-md-3" mx-auto> 
+                                <div class="col-md-3" mx-auto id="img_servicios_ext_der"> 
                                     <a href=""> <img src="img/img8.png" alt="Eventos">
                                             <div align="center" class="robots">
                                                 EVENTOS
                                             </div> 
                                     </a>
-                                </div>  
+                                </div>   
                         </div>
                     </div>
             </div>
@@ -561,23 +589,56 @@
                        
                         <div class= "row">   
                         <div class="col-md-12">                                                                 
-                                <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo" style="float: left;"><br>
+                                <img src="assets/img/blog_new/recibe.png" alt="Formulario para enviar correo" style="float:left;  width:300px "><br>
                                 <form action="mail.php" method ="POST" enctype="multipart/form-data" >
                                 <input type="email" name="nombredelacaja" style=" left:25%;
                                                         top:70%;
                                                         position: absolute;">                                   
                                 <button class="btn btn-danger btn-md" onclick="location.href='blog.php'" type="submit" style=" left:25%;
-                                                        top:80%;
+                                                        top:85%;
                                                         position: absolute;">Suscribete Ya</button> 
                         </div>
                         </div>
                    
                         <div class= "row">                                                                    
                         <div class="col-md-12">  
-                            <a href="">  <img src="assets/img/blog_new/facebook.png" alt="Siguenos en Facebook"><br></a>
-                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
-                            <div class="fb-page" data-href="https://www.facebook.com/passconsultores/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
-                           
+                            <aside class="lateral">
+
+                                <div class="widget widget_facebook">
+                                    <div class="widget__interior">
+                                        <div id="fb-root"></div>
+                                            <script>
+                                                (function(d, s, id) {
+                                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                                    if (d.getElementById(id)) return;
+                                                    js = d.createElement(s); js.id = id;
+                                                    js.async=true; js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
+                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                }(document, 'script', 'facebook-jssdk'));
+                                            </script>
+                                                <a href="">  <img src="assets/img/blog_new/facebook.png" alt="Siguenos en Facebook" style="width:300px"><br></a>
+                                            <div class="fb-page" data-href="http://www.facebook.com/passconsultores" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-hide-cta="true" data-stream="false" data-header="false">
+                                                <div class="fb-xfbml-parse-ignore">
+                                                    <blockquote cite="http://www.facebook.com/passconsultores">
+                                                        <a rel="nofollow" href="http://www.facebook.com/passconsultores">
+                                                        </a>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <aside class="envoltorio_publi estirar" id="roba2">
+                                <div id='elpais_gpt-MPU2' class='publi_luto_horizontal'>
+                                <script type='text/javascript'>
+                                            PBS.display('MPU2');
+                                        </script>
+                                </div>
+                            </aside>                                            
+                                                                        
+
+
+
+
                         </div>
                         </div>
                     </div>   

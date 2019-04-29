@@ -6922,6 +6922,18 @@ canvas{
   right: 0;
   top: 50%;
 }
+
+#particles3-js {
+  background: rgba(0, 0, 0, 0) url("../img/about/cabecera-blog.jpg") repeat scroll 0 0;
+  height: 225px;
+  position: relative;
+  width: 100%;
+}
+
+#cabecera_blog{
+  font-family: 
+}
+
 /*-----------*/
 .portfolio{
   background: rgba(0, 0, 0, 0) url("img/bg/portfolio01.jpg") repeat scroll 0 0 !important;
@@ -11487,6 +11499,42 @@ body.pages .tienda-text p{
     font-size: 65px; 
     font-weight: bold;
     margin-top: -160px;
+}
+
+#particles3-js h1 {
+  color: #fff;
+  float: left;
+  font-family: "Raleway";
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+#particles3-js .container {
+  height: 100%;
+  left: 0;
+  margin-top: -30px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+#cabecera_blog_texto{
+  align-items: flex-end;
+}
+
+.contact-banner #particles3-js {
+  background: rgba(0, 0, 0, 0) url("../img/about/cabecera-blog.jpg") repeat scroll 0 0;
+  height: 225px;
+  width: 100%;
+}
+
+.shop-banner #particles3-js{
+  background: rgba(0, 0, 0, 0) url("../img/about//cabecera-blog.jpg") repeat scroll 0 0;
+  height: 225px;
+  width: 100%;
 }
 
 #particles2-js .top-title-k h2 {

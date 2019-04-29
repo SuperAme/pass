@@ -255,7 +255,26 @@
                 </nav>
             </div>
         </div>
-        <!-- End sidr menu -->
+     <!-- End sidr menu -->
+                <!-- Start particles js -->
+                <div id="particles3-js">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-md-1">
+						            <div class="again-back">
+							            <a href="../" class="readon">Atrás</a>	
+						            </div>
+					            </div>
+					        <div class="col-md-8">
+						        <div class="top-title-k" id="cabecera_blog_texto">
+							        <h1>Blog</h1>
+						            </div>                  				
+					            </div>
+
+                            </div>
+                            </div>
+                    </div>		
+        <!-- End particles js -->
         <!-- Start main menu -->
         <div class="main-menu">
             <div class="container-fluid">

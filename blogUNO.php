@@ -512,8 +512,26 @@
 
         </div>
 
-        <!-- End sidr menu -->
+       <!-- End sidr menu -->
+                <!-- Start particles js -->
+                <div id="particles3-js">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-md-1">
+						            <div class="again-back">
+							            <a href="../" class="readon">Atrás</a>	
+						            </div>
+					            </div>
+					        <div class="col-md-8">
+						        <div class="top-title-k" id="cabecera_blog_texto">
+							        <h1>Blog</h1>
+						            </div>                  				
+					            </div>
 
+                            </div>
+                            </div>
+                    </div>		
+        <!-- End particles js -->
         <!-- Start main menu -->
 
         <div class="main-menu">
@@ -702,64 +720,49 @@
 
         <div class="container-fluid">
 
-            <div class="col-md-1"></div>
+            <div class="col-md-3"></div>
 
 
 
-            <div class ="col-md-4">
-
+         <!--   <div class ="col-md-4">
+            <div class="row">
                 <a class="fancybox" data-fancybox-group="gallery" href="img/banner-banco-noi-prod-900.png">
-
                     <div class="blog-column-photo">
-
-                        <img src="img/banner-banco-noi-prod-900.png" alt="Curso SAE">
-
+                        <img src="img/banner-banco-noi-prod-900.png"  max-width:454px max-height:700px alt="Curso SAE">
                     </div>
-
-                    <div class="blog-column-view">
-
+                    <div class="-blogcolumn-view">
                         <span>EXPANDE</span>
-
                     </div>
-
                 </a>
-
             </div>
 
-            
-
-            <div class="col-md-6">  
-            
             </div>
+        -->
+            
+            <div class="col-md-8">      
+                <?php 
 
+                    include ("blog-pass/php/conexion2.php");
+                    include ("blog-pass/php/conexion6.php");
+                    echo "<br>";
+                    echo "<p class='robot'>".$fila1["titulo"]."</p> \n";
+                    echo "<p class='robot'>".$fila6["texto"]."</p> \n";
+                    echo "<br>";
+                ?>
+            </div>
         </div>
-
-
-
         <!-- Start footer -->
-
         <footer>
-
             <div class="footer-top">
-
                 <div class="container">
-
                     <div class="row">
-
                         <div class="col-xs-12 col-sm-4 col-md-3">
-
-                            <div class="footer-logo footertop-menu">
-
+                           <div class="footer-logo footertop-menu">
                                 <h5>Atención al Cliente</h5>
-
                                 <ul>
-
                                     <li><a href="contacto.html">Contacto</a></li>
-
                                     <!--<li><a href="help-center.html">Preguntas Frecuentes</a></li>-->
-
                                     <li><a href="#footer-top" data-toggle="tooltip" data-placement="left" title="Próximamente!">Metodos de Pago</a></li>
-
                                 </ul>
 
                             </div>
